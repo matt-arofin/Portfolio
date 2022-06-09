@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt's Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <!-- Consider replacing with react scripts instead of hard coding-->
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/Hero-img.jpeg" alt=""> <!-- rememeber to change the image -->
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Matthew Arofin</span>
+                    A Software Engineer
+                </h1>
+                <p>
+                    I'm a developer who loves to learn new things and create interesting projects!
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa earum autem quisquam!
+                </p>
+                <div class="btn-container"> 
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a> <!-- Add buttons for my socials/github too -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>About <span>Me</span><!-- <span class="bg-text">my stats</span> --></h2>
+            </div> <!-- Consider using the wakatime plug-in to display my most recent coding stats (hours, languages) -->
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>About Me</h4>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea, dolor eveniet sequi qui in cum recusandae ut deserunt necessitatibus, nisi quos enim expedita adipisci porro sunt eos. Delectus cumque optio eveniet quidem aliquam nihil non aut magni placeat ullam.
+                    </p>
+                    <div class="btn-container">
+                        <a href="" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Projects <br/> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item"> <!-- Placeholder needs updating  -->
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Projects <br/> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item"> <!-- Placeholder needs updating  -->
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Projects <br/> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item"> <!-- Placeholder needs updating  -->
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Projects <br/> Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="about-stats"> 
+                <h4 class="stat-title">Coding Activity</h4>
+                <figure class="metrtics"><embed src="https://wakatime.com/share/@dc746526-be58-4f72-b381-7d2fe0e56de4/5fc2468f-4c1b-4650-8ef5-657998c77479.svg" height="400px" scale="tofit"></embed></figure> 
+                <figure class="metrics"><embed src="https://wakatime.com/share/@dc746526-be58-4f72-b381-7d2fe0e56de4/7e31fd2a-0998-419b-ba47-58f211887f48.svg" height="400px" scale="tofit"></embed></figure> 
+            </div> -->
+            <div class="timeline"> <!-- Section should hold information about relevant work experience/volunteer opportunities -->
+                <div class="tl-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">April 2022 - present</p>
+                    <h5>Volunteer Web Developer<span> - Hack For LA</span></h5>
+                    <ul style="list-style: disc"> <!-- Summary of activities performed -->
+                        <li>Attended weekly stand-ups to discuss progress and blockers with website team</li>
+                        <li>Closed issues and generated pull requests to maintain the <a href="https://www.hackforla.org/#" style="color: cyan">Hack For LA website</a></li>
+                        <li>Languages and frameworks used include SCSS, HTML, and Markdown</li>
+                    </ul> 
+                </div>
+                <!-- <div class="tl-item">  think about using this for BloomTech
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">April 2022 - present</p>
+                    <h5>Full Stack Web Developer Course<span> - BloomTech Institute of Technology</span></h5>
+                    <ul style="list-style: disc"> 
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul> 
+                </div> -->
+            </div>
+        </section>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><!-- <span class="bg-text">my stats</span> --></h2>
+            </div>
+        </section>
+        <section class="section sec4 blogs" id="blogs"></section>
+        <section class="section sec5 contact" id="contact"></section>
+    </main>
+
+    <div class="controls"> <!-- How about hiding the buttons whenever they aren't in view/until the mouse moves to the left of the screen and animating their transitions in and out -->
+        <div class="control active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="fas fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope"></i>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
